@@ -40,7 +40,7 @@ int main() {
         auto result = std::make_shared<TgBot::InlineQueryResultArticle>();
 
 
-        if (randint(5 + 1 == 6)) {
+        if (randint(6)==6) {
             text->messageText = randChoice(query->from->firstName, 0);
         } else {
             text->messageText = randChoice(query->from->firstName, 1);
